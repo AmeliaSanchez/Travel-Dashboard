@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#f5f2eb">
+  <meta name="description" content="Panel personal para organizar viajes, vuelos, hoteles y reservas.">
+  <title>Travel Dashboard</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="site-header">
+      <a class="brand" href="#" aria-label="Inicio">
+        <span class="brand-mark" aria-hidden="true">✦</span>
+        <span id="app-title">Travel Dashboard</span>
+      </a>
+      <div class="profile" aria-label="Perfil">
+        <span id="owner-name">Ame Sanchez</span>
+        <span class="avatar" aria-hidden="true">A</span>
+      </div>
+    </header>
+
+    <main>
+      <section id="next-trip" class="hero" aria-labelledby="next-trip-label">
+        <div class="loading-state">Cargando tu próximo viaje…</div>
+      </section>
+
+      <section class="trips-section" aria-labelledby="trips-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Itinerario</p>
+            <h2 id="trips-title">Todos los viajes</h2>
+          </div>
+          <label class="search-box">
+            <span aria-hidden="true">⌕</span>
+            <span class="sr-only">Buscar viajes</span>
+            <input id="search-input" type="search" placeholder="Buscar destino, vuelo…" autocomplete="off">
+            <kbd>⌘ K</kbd>
+          </label>
+        </div>
+
+        <div class="management-bar" aria-label="Administrar viajes">
+          <button id="new-trip" class="btn btn--primary" type="button">➕ Nuevo viaje</button>
+          <button id="export-data" class="btn" type="button">💾 Exportar</button>
+          <button id="import-data" class="btn" type="button">📂 Importar</button>
+          <input id="import-file" class="sr-only" type="file" accept="application/json,.json">
+        </div>
+
+        <div id="results-count" class="results-count" aria-live="polite"></div>
+        <div id="trips-list" class="trips-list">
+          <div class="loading-state">Cargando viajes…</div>
+        </div>
+
+        <section id="history-section" class="history-section" aria-labelledby="history-title" hidden>
+          <div class="history-heading"><p class="eyebrow">Viajes anteriores</p><h2 id="history-title">Historial</h2></div>
+          <div id="history-list" class="trips-list"></div>
+        </section>
+      </section>
+    </main>
+
+    <footer>
+      <span>Travel Dashboard</span>
+      <span>Viaja ligero. Ten todo a mano.</span>
+    </footer>
+  </div>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <dialog id="editor-modal" class="editor-modal">
+    <form id="editor-form" method="dialog" novalidate>
+      <div class="modal-heading">
+        <div><p id="modal-eyebrow" class="eyebrow">Viaje</p><h2 id="modal-title">Nuevo viaje</h2></div>
+        <button class="modal-close" type="button" data-close-modal aria-label="Cerrar">×</button>
+      </div>
+      <div id="form-message" class="form-message" role="alert" aria-live="assertive"></div>
+      <div id="form-fields" class="form-grid"></div>
+      <div class="modal-actions">
+        <button class="btn" type="button" data-close-modal>Cancelar</button>
+        <button class="btn btn--primary" type="submit">Guardar</button>
+      </div>
+    </form>
+  </dialog>
+  <script src="assets/js/app.js" defer></script>
+</body>
+</html>

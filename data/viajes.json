@@ -1,0 +1,280 @@
+{
+  "aplicacion": {
+    "titulo": "Travel Dashboard",
+    "propietario": "Ame Sanchez",
+    "versionModelo": "3.0-ready",
+    "capacidadesFuturas": {
+      "checklists": false,
+      "visas": false,
+      "pasaportes": false,
+      "vacunas": false,
+      "notas": false,
+      "gastos": false,
+      "mapasOffline": false,
+      "clima": false,
+      "appleWallet": false,
+      "googleDrive": false
+    }
+  },
+  "viajes": [
+    {
+      "id": "rio-de-janeiro-2026",
+      "destino": "Río de Janeiro",
+      "ciudad": "Río de Janeiro",
+      "pais": "Brasil",
+      "bandera": "🇧🇷",
+      "fechaInicio": "2026-10-07",
+      "fechaFin": "2026-10-11",
+      "estado": "Confirmado",
+      "vuelos": [
+        {
+          "aerolinea": "JetSMART",
+          "numero": "JA3814",
+          "origen": "AEP",
+          "origenNombre": "Aeroparque Jorge Newbery",
+          "destino": "GIG",
+          "destinoNombre": "Aeropuerto Internacional de Galeão - Antônio Carlos Jobim",
+          "fecha": "2026-10-07",
+          "horaSalida": "15:55",
+          "horaLlegada": "18:50",
+          "duracion": "2 h 55 min",
+          "avion": "No informado",
+          "asientos": [],
+          "equipaje": ["Carry-on"],
+          "codigoReserva": "F6JJVC",
+          "pdf": "docs/reservas/rio-expedia.pdf"
+        },
+        {
+          "aerolinea": "JetSMART",
+          "numero": "JA3780",
+          "origen": "GIG",
+          "origenNombre": "Aeropuerto Internacional de Galeão - Antônio Carlos Jobim",
+          "destino": "AEP",
+          "destinoNombre": "Aeroparque Jorge Newbery",
+          "fecha": "2026-10-11",
+          "horaSalida": "11:55",
+          "horaLlegada": "15:20",
+          "duracion": "3 h 25 min",
+          "avion": "No informado",
+          "asientos": [],
+          "equipaje": ["Carry-on"],
+          "codigoReserva": "F6JJVC",
+          "pdf": "docs/reservas/rio-expedia.pdf"
+        }
+      ],
+      "hoteles": [
+        {
+          "nombre": "JW Marriott Hotel Rio de Janeiro",
+          "direccion": "Avenida Atlântica, 2600 - Copacabana, Rio de Janeiro, RJ, 22041-001 Brasil",
+          "checkIn": "2026-10-07",
+          "checkInHora": "15:00",
+          "checkOut": "2026-10-11",
+          "checkOutHora": "12:00",
+          "codigoReserva": "73421905951618",
+          "pdf": "docs/reservas/rio-expedia.pdf",
+          "foto": "https://cache.marriott.com/is/image/marriotts7prod/jw-riomc-dji-20250920094648-0121-32202%3AWide-Ver?fit=constrain&wid=750"
+        }
+      ],
+      "documentos": [
+        { "tipo": "Reserva Expedia", "nombre": "Reserva Expedia Río de Janeiro.pdf", "ruta": "docs/reservas/rio-expedia.pdf" }
+      ],
+      "pasajeros": ["Vladimir Aguzin", "Ame Sanchez"],
+      "codigoReserva": "F6JJVC",
+      "asientos": [],
+      "equipaje": ["Carry-on"],
+      "pdf": "docs/reservas/rio-expedia.pdf"
+    },
+    {
+      "id": "nueva-york-boston-2026",
+      "destino": "Nueva York + Boston",
+      "ciudad": "Nueva York y Boston",
+      "pais": "Estados Unidos",
+      "bandera": "🇺🇸",
+      "fechaInicio": "2026-11-19",
+      "fechaFin": "2026-11-30",
+      "estado": "Confirmado",
+      "vuelos": [
+        {
+          "aerolinea": "American Airlines",
+          "numero": "AA954",
+          "origen": "EZE",
+          "origenNombre": "Aeropuerto Internacional Ministro Pistarini",
+          "destino": "JFK",
+          "destinoNombre": "Aeropuerto Internacional John F. Kennedy",
+          "fecha": "2026-11-19",
+          "horaSalida": "21:10",
+          "horaLlegada": "06:00 +1",
+          "duracion": "10 h 50 min",
+          "avion": "No informado",
+          "asientos": ["26J", "26K"],
+          "equipaje": ["Carry-on", "1 pieza de equipaje"],
+          "codigoReserva": "HCQYBO",
+          "pdf": "docs/reservas/new-york-boston-vuelos.pdf"
+        },
+        {
+          "aerolinea": "American Airlines",
+          "numero": "AA4371",
+          "origen": "JFK",
+          "origenNombre": "Aeropuerto Internacional John F. Kennedy",
+          "destino": "BOS",
+          "destinoNombre": "Aeropuerto Internacional Logan",
+          "fecha": "2026-11-23",
+          "horaSalida": "14:02",
+          "horaLlegada": "15:22",
+          "duracion": "1 h 20 min",
+          "avion": "No informado",
+          "asientos": ["15C", "15A"],
+          "equipaje": ["Carry-on", "1 pieza de equipaje"],
+          "codigoReserva": "HCQYBO",
+          "pdf": "docs/reservas/new-york-boston-vuelos.pdf"
+        },
+        {
+          "aerolinea": "American Airlines",
+          "numero": "AA4367",
+          "origen": "BOS",
+          "origenNombre": "Aeropuerto Internacional Logan",
+          "destino": "JFK",
+          "destinoNombre": "Aeropuerto Internacional John F. Kennedy",
+          "fecha": "2026-11-29",
+          "horaSalida": "15:52",
+          "horaLlegada": "17:18",
+          "duracion": "1 h 26 min",
+          "avion": "No informado",
+          "asientos": ["15D", "15F"],
+          "equipaje": ["Carry-on", "1 pieza de equipaje"],
+          "codigoReserva": "HCQYBO",
+          "pdf": "docs/reservas/new-york-boston-vuelos.pdf"
+        },
+        {
+          "aerolinea": "American Airlines",
+          "numero": "AA953",
+          "origen": "JFK",
+          "origenNombre": "Aeropuerto Internacional John F. Kennedy",
+          "destino": "EZE",
+          "destinoNombre": "Aeropuerto Internacional Ministro Pistarini",
+          "fecha": "2026-11-29",
+          "horaSalida": "22:00",
+          "horaLlegada": "10:45 +1",
+          "duracion": "10 h 45 min",
+          "avion": "No informado",
+          "asientos": ["25J", "25K"],
+          "equipaje": ["Carry-on", "1 pieza de equipaje"],
+          "codigoReserva": "HCQYBO",
+          "pdf": "docs/reservas/new-york-boston-vuelos.pdf"
+        }
+      ],
+      "hoteles": [
+        {
+          "nombre": "The Lombardy Hotel",
+          "direccion": "111 E 56th St, New York, NY 10022, Estados Unidos",
+          "checkIn": "2026-11-20",
+          "checkInHora": "15:00",
+          "checkOut": "2026-11-23",
+          "checkOutHora": "12:00",
+          "codigoReserva": "72073214352158",
+          "pdf": "docs/reservas/new-york-lombardy.pdf",
+          "foto": "https://lombardyhotel.com/wp-content/uploads/2020/04/nicos-salon.png"
+        }
+      ],
+      "documentos": [
+        { "tipo": "Vuelo", "nombre": "American Airlines - Nueva York y Boston.pdf", "ruta": "docs/reservas/new-york-boston-vuelos.pdf" },
+        { "tipo": "Reserva Hotel", "nombre": "The Lombardy Hotel.pdf", "ruta": "docs/reservas/new-york-lombardy.pdf" }
+      ],
+      "pasajeros": ["Vladimir Aguzin", "Ame Sanchez"],
+      "codigoReserva": "HCQYBO",
+      "asientos": ["26J", "26K", "15C", "15A", "15D", "15F", "25J", "25K"],
+      "equipaje": ["Carry-on", "1 pieza de equipaje"],
+      "pdf": "docs/reservas/new-york-boston-vuelos.pdf"
+    },
+    {
+      "id": "neuquen-2026",
+      "destino": "Neuquén",
+      "ciudad": "Neuquén",
+      "pais": "Argentina",
+      "bandera": "🇦🇷",
+      "fechaInicio": "2026-12-24",
+      "fechaFin": "2026-12-27",
+      "estado": "Confirmado",
+      "vuelos": [
+        {
+          "aerolinea": "Aerolíneas Argentinas",
+          "numero": "AR1640",
+          "origen": "AEP",
+          "origenNombre": "Aeroparque Jorge Newbery",
+          "destino": "NQN",
+          "destinoNombre": "Aeropuerto Internacional Presidente Perón",
+          "fecha": "2026-12-24",
+          "horaSalida": "08:40",
+          "horaLlegada": "10:40",
+          "duracion": "2 h",
+          "avion": "Boeing 737-800",
+          "asientos": [],
+          "equipaje": ["Tarifa Flex"],
+          "codigoReserva": "No informado",
+          "pdf": ""
+        },
+        {
+          "aerolinea": "Aerolíneas Argentinas",
+          "numero": "AR1645",
+          "origen": "NQN",
+          "origenNombre": "Aeropuerto Internacional Presidente Perón",
+          "destino": "AEP",
+          "destinoNombre": "Aeroparque Jorge Newbery",
+          "fecha": "2026-12-27",
+          "horaSalida": "16:55",
+          "horaLlegada": "18:35",
+          "duracion": "1 h 40 min",
+          "avion": "Boeing 737-800",
+          "asientos": [],
+          "equipaje": ["Tarifa Flex"],
+          "codigoReserva": "No informado",
+          "pdf": ""
+        }
+      ],
+      "hoteles": [
+        { "nombre": "Pendiente", "direccion": "No informado", "checkIn": "", "checkOut": "", "codigoReserva": "No informado", "pdf": "", "foto": "" }
+      ],
+      "documentos": [
+        { "tipo": "Otros", "nombre": "Itinerario Neuquén.jpeg", "ruta": "docs/reservas/neuquen-itinerario.jpeg" }
+      ],
+      "pasajeros": [],
+      "codigoReserva": "NO INFORMADO",
+      "asientos": [],
+      "equipaje": ["Tarifa Flex"],
+      "pdf": ""
+    },
+    {
+      "id": "charlottesville-2027",
+      "destino": "Charlottesville",
+      "ciudad": "Charlottesville",
+      "pais": "Estados Unidos",
+      "bandera": "🇺🇸",
+      "fechaInicio": "2027-05-20",
+      "fechaFin": "2027-05-24",
+      "estado": "Confirmado",
+      "vuelos": [],
+      "hoteles": [
+        {
+          "nombre": "Omni Charlottesville Hotel",
+          "direccion": "212 Ridge McIntire Rd, Charlottesville, VA 22903, Estados Unidos",
+          "checkIn": "2027-05-20",
+          "checkInHora": "16:00",
+          "checkOut": "2027-05-24",
+          "checkOutHora": "11:00",
+          "noches": 4,
+          "codigoReserva": "40064677157",
+          "pdf": "docs/reservas/charlottesville-omni.pdf",
+          "foto": "https://www.omnihotels.com/-/media/images/hotels/chochv/photos/hotel/chochv-omni-charlottesville-hotel-exterior.jpg?hash=B7FE87E79BAFE64980A0C09C3FF8BAEAD9154AE1&mw=1536"
+        }
+      ],
+      "documentos": [
+        { "tipo": "Reserva Hotel", "nombre": "Omni Charlottesville Hotel.pdf", "ruta": "docs/reservas/charlottesville-omni.pdf" }
+      ],
+      "pasajeros": ["Vladimir Aguzin", "Adulto 2 - no informado", "Adulto 3 - no informado"],
+      "codigoReserva": "40064677157",
+      "asientos": [],
+      "equipaje": [],
+      "pdf": "docs/reservas/charlottesville-omni.pdf"
+    }
+  ]
+}

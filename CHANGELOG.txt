@@ -1,0 +1,36 @@
+TRAVEL DASHBOARD — HISTORIAL DE CAMBIOS
+=======================================
+
+v1.2.0 — 2026-08-01
+-------------------
+
+- Formularios para crear y editar viajes, vuelos y hoteles.
+- Eliminación confirmada de vuelos y hoteles.
+- Persistencia automática de cambios en el dispositivo.
+- Importación y exportación de viajes.json.
+- Separación automática de viajes anteriores en Historial.
+- Validación de campos obligatorios y rangos de fechas.
+- Consolidación compatible de hoteles múltiples y documentos por viaje.
+
+v1.1.0 — 2026-08-01
+-------------------
+
+- Código de reserva destacado al abrir cada viaje.
+- Vuelos presentados como tarjetas de embarque individuales.
+- Hotel en una tarjeta con check-in, check-out y reserva.
+- Resumen compacto de vuelos, hotel, asientos, equipaje y estado.
+- Cuenta regresiva automática en el próximo viaje.
+- Banderas, estados e información de equipaje con iconografía.
+- Barra de acciones fija y mejoras de animación para iPhone.
+- Avatar simplificado a la inicial A.
+
+v1.0.0 — 2026-08-01
+-------------------
+
+- Primera versión del dashboard responsive.
+- Carga completa de contenido desde data/viajes.json.
+- Próximo viaje destacado y listado cronológico.
+- Tarjetas desplegables con vuelos, hotel, pasajeros y reserva.
+- Buscador en tiempo real.
+- Acciones para copiar código y abrir comprobante PDF.
+- Diseño optimizado para escritorio e iPhone.
