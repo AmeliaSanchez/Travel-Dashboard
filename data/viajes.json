@@ -40,7 +40,9 @@
           "duracion": "2 h 55 min",
           "avion": "No informado",
           "asientos": [],
-          "equipaje": ["Carry-on"],
+          "equipaje": [
+            "Carry-on"
+          ],
           "codigoReserva": "F6JJVC",
           "pdf": "docs/reservas/rio-expedia.pdf"
         },
@@ -57,7 +59,9 @@
           "duracion": "3 h 25 min",
           "avion": "No informado",
           "asientos": [],
-          "equipaje": ["Carry-on"],
+          "equipaje": [
+            "Carry-on"
+          ],
           "codigoReserva": "F6JJVC",
           "pdf": "docs/reservas/rio-expedia.pdf"
         }
@@ -76,12 +80,21 @@
         }
       ],
       "documentos": [
-        { "tipo": "Reserva Expedia", "nombre": "Reserva Expedia Río de Janeiro.pdf", "ruta": "docs/reservas/rio-expedia.pdf" }
+        {
+          "tipo": "Reserva Expedia",
+          "nombre": "Reserva Expedia Río de Janeiro.pdf",
+          "ruta": "docs/reservas/rio-expedia.pdf"
+        }
       ],
-      "pasajeros": ["Vladimir Aguzin", "Ame Sanchez"],
+      "pasajeros": [
+        "Vladimir Aguzin",
+        "Ame Sanchez"
+      ],
       "codigoReserva": "F6JJVC",
       "asientos": [],
-      "equipaje": ["Carry-on"],
+      "equipaje": [
+        "Carry-on"
+      ],
       "pdf": "docs/reservas/rio-expedia.pdf"
     },
     {
@@ -106,8 +119,14 @@
           "horaLlegada": "06:00 +1",
           "duracion": "10 h 50 min",
           "avion": "No informado",
-          "asientos": ["26J", "26K"],
-          "equipaje": ["Carry-on", "1 pieza de equipaje"],
+          "asientos": [
+            "26J",
+            "26K"
+          ],
+          "equipaje": [
+            "Carry-on",
+            "1 pieza de equipaje"
+          ],
           "codigoReserva": "HCQYBO",
           "pdf": "docs/reservas/new-york-boston-vuelos.pdf"
         },
@@ -123,8 +142,14 @@
           "horaLlegada": "15:22",
           "duracion": "1 h 20 min",
           "avion": "No informado",
-          "asientos": ["15C", "15A"],
-          "equipaje": ["Carry-on", "1 pieza de equipaje"],
+          "asientos": [
+            "15C",
+            "15A"
+          ],
+          "equipaje": [
+            "Carry-on",
+            "1 pieza de equipaje"
+          ],
           "codigoReserva": "HCQYBO",
           "pdf": "docs/reservas/new-york-boston-vuelos.pdf"
         },
@@ -140,8 +165,14 @@
           "horaLlegada": "17:18",
           "duracion": "1 h 26 min",
           "avion": "No informado",
-          "asientos": ["15D", "15F"],
-          "equipaje": ["Carry-on", "1 pieza de equipaje"],
+          "asientos": [
+            "15D",
+            "15F"
+          ],
+          "equipaje": [
+            "Carry-on",
+            "1 pieza de equipaje"
+          ],
           "codigoReserva": "HCQYBO",
           "pdf": "docs/reservas/new-york-boston-vuelos.pdf"
         },
@@ -157,8 +188,14 @@
           "horaLlegada": "10:45 +1",
           "duracion": "10 h 45 min",
           "avion": "No informado",
-          "asientos": ["25J", "25K"],
-          "equipaje": ["Carry-on", "1 pieza de equipaje"],
+          "asientos": [
+            "25J",
+            "25K"
+          ],
+          "equipaje": [
+            "Carry-on",
+            "1 pieza de equipaje"
+          ],
           "codigoReserva": "HCQYBO",
           "pdf": "docs/reservas/new-york-boston-vuelos.pdf"
         }
@@ -177,14 +214,216 @@
         }
       ],
       "documentos": [
-        { "tipo": "Vuelo", "nombre": "American Airlines - Nueva York y Boston.pdf", "ruta": "docs/reservas/new-york-boston-vuelos.pdf" },
-        { "tipo": "Reserva Hotel", "nombre": "The Lombardy Hotel.pdf", "ruta": "docs/reservas/new-york-lombardy.pdf" }
+        {
+          "tipo": "Vuelo",
+          "nombre": "American Airlines - Nueva York y Boston.pdf",
+          "ruta": "docs/reservas/new-york-boston-vuelos.pdf"
+        },
+        {
+          "tipo": "Reserva Hotel",
+          "nombre": "The Lombardy Hotel.pdf",
+          "ruta": "docs/reservas/new-york-lombardy.pdf"
+        }
       ],
-      "pasajeros": ["Vladimir Aguzin", "Ame Sanchez"],
+      "pasajeros": [
+        "Vladimir Aguzin",
+        "Ame Sanchez"
+      ],
       "codigoReserva": "HCQYBO",
-      "asientos": ["26J", "26K", "15C", "15A", "15D", "15F", "25J", "25K"],
-      "equipaje": ["Carry-on", "1 pieza de equipaje"],
+      "asientos": [
+        "26J",
+        "26K",
+        "15C",
+        "15A",
+        "15D",
+        "15F",
+        "25J",
+        "25K"
+      ],
+      "equipaje": [
+        "Carry-on",
+        "1 pieza de equipaje"
+      ],
       "pdf": "docs/reservas/new-york-boston-vuelos.pdf"
+    },
+    {
+      "id": "nikita-charlottesville-buenos-aires-2026",
+      "destino": "Charlottesville → Buenos Aires",
+      "ciudad": "Buenos Aires",
+      "pais": "Argentina",
+      "bandera": "🇦🇷",
+      "titular": "Nikita",
+      "fechaInicio": "2026-12-10",
+      "fechaFin": "2027-01-12",
+      "estado": "Confirmado",
+      "vuelos": [
+        {
+          "aerolinea": "American Airlines",
+          "numero": "AA5803",
+          "origen": "CHO",
+          "origenNombre": "Aeropuerto de Charlottesville-Albemarle",
+          "destino": "CLT",
+          "destinoNombre": "Aeropuerto Internacional Charlotte Douglas",
+          "fecha": "2026-12-10",
+          "horaSalida": "13:12",
+          "horaLlegada": "14:42",
+          "duracion": "1 h 30 min",
+          "avion": "No informado",
+          "clase": "Economy (G)",
+          "operador": "Piedmont Airlines / American Eagle",
+          "asientos": [
+            "7A"
+          ],
+          "equipaje": [],
+          "codigoReserva": "LJXUGG",
+          "pdf": "docs/reservas/nikita-american-airlines-1.pdf"
+        },
+        {
+          "aerolinea": "American Airlines",
+          "numero": "AA574",
+          "origen": "CLT",
+          "origenNombre": "Aeropuerto Internacional Charlotte Douglas",
+          "destino": "MIA",
+          "destinoNombre": "Aeropuerto Internacional de Miami",
+          "fecha": "2026-12-10",
+          "horaSalida": "16:35",
+          "horaLlegada": "18:45",
+          "duracion": "2 h 10 min",
+          "avion": "No informado",
+          "clase": "Economy (G)",
+          "operador": "",
+          "asientos": [
+            "24C"
+          ],
+          "equipaje": [],
+          "codigoReserva": "LJXUGG",
+          "pdf": "docs/reservas/nikita-american-airlines-1.pdf"
+        },
+        {
+          "aerolinea": "American Airlines",
+          "numero": "AA931",
+          "origen": "MIA",
+          "origenNombre": "Aeropuerto Internacional de Miami",
+          "destino": "EZE",
+          "destinoNombre": "Aeropuerto Internacional Ministro Pistarini",
+          "fecha": "2026-12-10",
+          "horaSalida": "20:15",
+          "horaLlegada": "07:25 +1",
+          "duracion": "9 h 10 min",
+          "avion": "No informado",
+          "clase": "Economy (G)",
+          "operador": "",
+          "comidas": [
+            "Cena",
+            "Desayuno"
+          ],
+          "asientos": [
+            "37J"
+          ],
+          "equipaje": [],
+          "codigoReserva": "LJXUGG",
+          "pdf": "docs/reservas/nikita-american-airlines-2.pdf"
+        },
+        {
+          "aerolinea": "American Airlines",
+          "numero": "AA908",
+          "origen": "EZE",
+          "origenNombre": "Aeropuerto Internacional Ministro Pistarini",
+          "destino": "MIA",
+          "destinoNombre": "Aeropuerto Internacional de Miami",
+          "fecha": "2027-01-11",
+          "horaSalida": "23:35",
+          "horaLlegada": "06:55 +1",
+          "duracion": "9 h 20 min",
+          "avion": "No informado",
+          "clase": "Economy (G)",
+          "operador": "",
+          "comidas": [
+            "Cena",
+            "Desayuno"
+          ],
+          "asientos": [
+            "36J"
+          ],
+          "equipaje": [],
+          "codigoReserva": "LJXUGG",
+          "pdf": "docs/reservas/nikita-american-airlines-2.pdf"
+        },
+        {
+          "aerolinea": "American Airlines",
+          "numero": "AA2065",
+          "origen": "MIA",
+          "origenNombre": "Aeropuerto Internacional de Miami",
+          "destino": "CLT",
+          "destinoNombre": "Aeropuerto Internacional Charlotte Douglas",
+          "fecha": "2027-01-12",
+          "horaSalida": "09:45",
+          "horaLlegada": "12:00",
+          "duracion": "2 h 15 min",
+          "avion": "No informado",
+          "clase": "Economy (G)",
+          "operador": "",
+          "asientos": [
+            "12A"
+          ],
+          "equipaje": [],
+          "codigoReserva": "LJXUGG",
+          "pdf": "docs/reservas/nikita-american-airlines-3.pdf"
+        },
+        {
+          "aerolinea": "American Airlines",
+          "numero": "AA5821",
+          "origen": "CLT",
+          "origenNombre": "Aeropuerto Internacional Charlotte Douglas",
+          "destino": "CHO",
+          "destinoNombre": "Aeropuerto de Charlottesville-Albemarle",
+          "fecha": "2027-01-12",
+          "horaSalida": "15:25",
+          "horaLlegada": "16:46",
+          "duracion": "1 h 21 min",
+          "avion": "No informado",
+          "clase": "Economy (G)",
+          "operador": "Piedmont Airlines / American Eagle",
+          "asientos": [
+            "7A"
+          ],
+          "equipaje": [],
+          "codigoReserva": "LJXUGG",
+          "pdf": "docs/reservas/nikita-american-airlines-3.pdf"
+        }
+      ],
+      "hoteles": [],
+      "documentos": [
+        {
+          "tipo": "Vuelo",
+          "nombre": "American Airlines — itinerario 1.pdf",
+          "ruta": "docs/reservas/nikita-american-airlines-1.pdf"
+        },
+        {
+          "tipo": "Vuelo",
+          "nombre": "American Airlines — itinerario 2.pdf",
+          "ruta": "docs/reservas/nikita-american-airlines-2.pdf"
+        },
+        {
+          "tipo": "Vuelo",
+          "nombre": "American Airlines — itinerario 3.pdf",
+          "ruta": "docs/reservas/nikita-american-airlines-3.pdf"
+        }
+      ],
+      "pasajeros": [
+        "Nikita"
+      ],
+      "codigoReserva": "LJXUGG",
+      "asientos": [
+        "7A",
+        "24C",
+        "37J",
+        "36J",
+        "12A",
+        "7A"
+      ],
+      "equipaje": [],
+      "pdf": "docs/reservas/nikita-american-airlines-1.pdf"
     },
     {
       "id": "neuquen-2026",
@@ -209,7 +448,9 @@
           "duracion": "2 h",
           "avion": "Boeing 737-800",
           "asientos": [],
-          "equipaje": ["Tarifa Flex"],
+          "equipaje": [
+            "Tarifa Flex"
+          ],
           "codigoReserva": "No informado",
           "pdf": ""
         },
@@ -226,21 +467,37 @@
           "duracion": "1 h 40 min",
           "avion": "Boeing 737-800",
           "asientos": [],
-          "equipaje": ["Tarifa Flex"],
+          "equipaje": [
+            "Tarifa Flex"
+          ],
           "codigoReserva": "No informado",
           "pdf": ""
         }
       ],
       "hoteles": [
-        { "nombre": "Pendiente", "direccion": "No informado", "checkIn": "", "checkOut": "", "codigoReserva": "No informado", "pdf": "", "foto": "" }
+        {
+          "nombre": "Pendiente",
+          "direccion": "No informado",
+          "checkIn": "",
+          "checkOut": "",
+          "codigoReserva": "No informado",
+          "pdf": "",
+          "foto": ""
+        }
       ],
       "documentos": [
-        { "tipo": "Otros", "nombre": "Itinerario Neuquén.jpeg", "ruta": "docs/reservas/neuquen-itinerario.jpeg" }
+        {
+          "tipo": "Otros",
+          "nombre": "Itinerario Neuquén.jpeg",
+          "ruta": "docs/reservas/neuquen-itinerario.jpeg"
+        }
       ],
       "pasajeros": [],
       "codigoReserva": "NO INFORMADO",
       "asientos": [],
-      "equipaje": ["Tarifa Flex"],
+      "equipaje": [
+        "Tarifa Flex"
+      ],
       "pdf": ""
     },
     {
@@ -268,9 +525,17 @@
         }
       ],
       "documentos": [
-        { "tipo": "Reserva Hotel", "nombre": "Omni Charlottesville Hotel.pdf", "ruta": "docs/reservas/charlottesville-omni.pdf" }
+        {
+          "tipo": "Reserva Hotel",
+          "nombre": "Omni Charlottesville Hotel.pdf",
+          "ruta": "docs/reservas/charlottesville-omni.pdf"
+        }
       ],
-      "pasajeros": ["Vladimir Aguzin", "Adulto 2 - no informado", "Adulto 3 - no informado"],
+      "pasajeros": [
+        "Vladimir Aguzin",
+        "Adulto 2 - no informado",
+        "Adulto 3 - no informado"
+      ],
       "codigoReserva": "40064677157",
       "asientos": [],
       "equipaje": [],
