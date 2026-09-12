@@ -28,42 +28,46 @@
       "estado": "Confirmado",
       "vuelos": [
         {
-          "aerolinea": "JetSMART",
-          "numero": "JA3814",
+          "aerolinea": "GOL Linhas Aéreas",
+          "numero": "G3 7651",
           "origen": "AEP",
           "origenNombre": "Aeroparque Jorge Newbery",
           "destino": "GIG",
           "destinoNombre": "Aeropuerto Internacional de Galeão - Antônio Carlos Jobim",
           "fecha": "2026-10-07",
-          "horaSalida": "15:55",
-          "horaLlegada": "18:50",
-          "duracion": "2 h 55 min",
+          "horaSalida": "10:20",
+          "horaLlegada": "13:10",
+          "duracion": "2 h 50 min",
           "avion": "No informado",
+          "clase": "Premium Economy",
           "asientos": [],
           "equipaje": [
-            "Carry-on"
+            "Carry-on",
+            "2 piezas de equipaje"
           ],
-          "codigoReserva": "F6JJVC",
-          "pdf": "docs/reservas/rio-expedia.pdf"
+          "codigoReserva": "No informado",
+          "pdf": "docs/reservas/rio-gol-ida.jpeg"
         },
         {
-          "aerolinea": "JetSMART",
-          "numero": "JA3780",
+          "aerolinea": "LATAM Airlines",
+          "numero": "LA 8044",
           "origen": "GIG",
           "origenNombre": "Aeropuerto Internacional de Galeão - Antônio Carlos Jobim",
           "destino": "AEP",
           "destinoNombre": "Aeroparque Jorge Newbery",
           "fecha": "2026-10-11",
-          "horaSalida": "11:55",
-          "horaLlegada": "15:20",
-          "duracion": "3 h 25 min",
+          "horaSalida": "13:45",
+          "horaLlegada": "17:00",
+          "duracion": "3 h 15 min",
           "avion": "No informado",
+          "clase": "Economy / Coach",
           "asientos": [],
           "equipaje": [
-            "Carry-on"
+            "Carry-on",
+            "1 pieza de equipaje"
           ],
-          "codigoReserva": "F6JJVC",
-          "pdf": "docs/reservas/rio-expedia.pdf"
+          "codigoReserva": "No informado",
+          "pdf": "docs/reservas/rio-latam-vuelta.jpeg"
         }
       ],
       "hoteles": [
@@ -81,21 +85,32 @@
       ],
       "documentos": [
         {
-          "tipo": "Reserva Expedia",
-          "nombre": "Reserva Expedia Río de Janeiro.pdf",
+          "tipo": "Reserva Hotel",
+          "nombre": "Reserva Expedia - JW Marriott Rio.pdf",
           "ruta": "docs/reservas/rio-expedia.pdf"
+        },
+        {
+          "tipo": "Vuelo",
+          "nombre": "GOL - Buenos Aires a Río de Janeiro.jpeg",
+          "ruta": "docs/reservas/rio-gol-ida.jpeg"
+        },
+        {
+          "tipo": "Vuelo",
+          "nombre": "LATAM - Río de Janeiro a Buenos Aires.jpeg",
+          "ruta": "docs/reservas/rio-latam-vuelta.jpeg"
         }
       ],
       "pasajeros": [
         "Vladimir Aguzin",
         "Ame Sanchez"
       ],
-      "codigoReserva": "F6JJVC",
+      "codigoReserva": "73443053820468",
       "asientos": [],
       "equipaje": [
-        "Carry-on"
+        "Carry-on",
+        "Equipaje despachado"
       ],
-      "pdf": "docs/reservas/rio-expedia.pdf"
+      "pdf": "docs/reservas/rio-gol-ida.jpeg"
     },
     {
       "id": "nueva-york-boston-2026",
@@ -540,6 +555,158 @@
       "asientos": [],
       "equipaje": [],
       "pdf": "docs/reservas/charlottesville-omni.pdf"
+    },
+    {
+      "id": "tailandia-2027",
+      "destino": "Tailandia",
+      "ciudad": "Bangkok",
+      "pais": "Tailandia",
+      "bandera": "🇹🇭",
+      "fechaInicio": "2027-05-24",
+      "fechaFin": "2027-06-06",
+      "estado": "Confirmado",
+      "vuelos": [
+        {
+          "aerolinea": "Etihad Airways",
+          "numero": "EY 6",
+          "origen": "IAD",
+          "origenNombre": "Aeropuerto Internacional Washington Dulles",
+          "destino": "AUH",
+          "destinoNombre": "Aeropuerto Internacional Zayed",
+          "fecha": "2027-05-24",
+          "horaSalida": "15:10",
+          "horaLlegada": "12:15 +1",
+          "duracion": "13 h 05 min",
+          "avion": "Boeing 787-9",
+          "clase": "Economy - Comfort",
+          "asientos": [
+            "25D",
+            "25C",
+            "25B",
+            "25A"
+          ],
+          "equipaje": [
+            "Carry-on 7 kg",
+            "2 piezas de equipaje"
+          ],
+          "codigoReserva": "8UQIUS",
+          "pdf": "docs/reservas/tailandia-vladimir-etihad.pdf"
+        },
+        {
+          "aerolinea": "Etihad Airways",
+          "numero": "EY 400",
+          "origen": "AUH",
+          "origenNombre": "Aeropuerto Internacional Zayed",
+          "destino": "BKK",
+          "destinoNombre": "Aeropuerto Internacional Suvarnabhumi",
+          "fecha": "2027-05-25",
+          "horaSalida": "14:15",
+          "horaLlegada": "23:50",
+          "duracion": "6 h 35 min",
+          "avion": "Airbus A321neo",
+          "clase": "Economy - Comfort",
+          "asientos": [
+            "24D",
+            "24C",
+            "24B",
+            "24A"
+          ],
+          "equipaje": [
+            "Carry-on 7 kg",
+            "2 piezas de equipaje"
+          ],
+          "codigoReserva": "8UQIUS",
+          "pdf": "docs/reservas/tailandia-vladimir-etihad.pdf"
+        },
+        {
+          "aerolinea": "Etihad Airways",
+          "numero": "EY 407",
+          "origen": "BKK",
+          "origenNombre": "Aeropuerto Internacional Suvarnabhumi",
+          "destino": "AUH",
+          "destinoNombre": "Aeropuerto Internacional Zayed",
+          "fecha": "2027-06-05",
+          "horaSalida": "21:00",
+          "horaLlegada": "00:30 +1",
+          "duracion": "6 h 30 min",
+          "avion": "Boeing 777-300ER",
+          "clase": "Economy - Comfort",
+          "asientos": [
+            "34D",
+            "34G",
+            "34E",
+            "34F"
+          ],
+          "equipaje": [
+            "Carry-on 7 kg",
+            "2 piezas de equipaje"
+          ],
+          "codigoReserva": "8UQIUS",
+          "pdf": "docs/reservas/tailandia-vladimir-etihad.pdf"
+        },
+        {
+          "aerolinea": "Etihad Airways",
+          "numero": "EY 5",
+          "origen": "AUH",
+          "origenNombre": "Aeropuerto Internacional Zayed",
+          "destino": "IAD",
+          "destinoNombre": "Aeropuerto Internacional Washington Dulles",
+          "fecha": "2027-06-06",
+          "horaSalida": "03:15",
+          "horaLlegada": "09:45",
+          "duracion": "14 h 30 min",
+          "avion": "Boeing 787-9",
+          "clase": "Economy - Comfort",
+          "asientos": [
+            "25H",
+            "25G",
+            "25E",
+            "25D"
+          ],
+          "equipaje": [
+            "Carry-on 7 kg",
+            "2 piezas de equipaje"
+          ],
+          "codigoReserva": "8UQIUS",
+          "pdf": "docs/reservas/tailandia-vladimir-etihad.pdf"
+        }
+      ],
+      "hoteles": [],
+      "documentos": [
+        {
+          "tipo": "Vuelo",
+          "nombre": "Etihad - Vladimir Maximiliano Aguzin.pdf",
+          "ruta": "docs/reservas/tailandia-vladimir-etihad.pdf"
+        },
+        {
+          "tipo": "Vuelo",
+          "nombre": "Etihad - María Amelia Sanchez.pdf",
+          "ruta": "docs/reservas/tailandia-ame-etihad.pdf"
+        },
+        {
+          "tipo": "Vuelo",
+          "nombre": "Etihad - Marko Aguzin.pdf",
+          "ruta": "docs/reservas/tailandia-marko-etihad.pdf"
+        },
+        {
+          "tipo": "Vuelo",
+          "nombre": "Etihad - Nikita Maria Aguzin.pdf",
+          "ruta": "docs/reservas/tailandia-nikita-etihad.pdf"
+        }
+      ],
+      "pasajeros": [
+        "Vladimir Maximiliano Aguzin",
+        "María Amelia Sanchez",
+        "Marko Aguzin",
+        "Nikita Maria Aguzin"
+      ],
+      "codigoReserva": "8UQIUS",
+      "asientos": [],
+      "equipaje": [
+        "Carry-on 7 kg",
+        "2 piezas de equipaje"
+      ],
+      "pdf": "docs/reservas/tailandia-vladimir-etihad.pdf"
     }
   ]
 }
