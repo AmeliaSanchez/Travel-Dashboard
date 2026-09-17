@@ -521,10 +521,95 @@
       "ciudad": "Charlottesville",
       "pais": "Estados Unidos",
       "bandera": "🇺🇸",
-      "fechaInicio": "2027-05-20",
-      "fechaFin": "2027-05-24",
+      "fechaInicio": "2027-05-19",
+      "fechaFin": "2027-06-12",
       "estado": "Confirmado",
-      "vuelos": [],
+      "vuelos": [
+        {
+          "aerolinea": "Delta Air Lines",
+          "numero": "DL 102",
+          "origen": "EZE",
+          "origenNombre": "Aeropuerto Internacional Ministro Pistarini",
+          "destino": "ATL",
+          "destinoNombre": "Aeropuerto Internacional Hartsfield-Jackson de Atlanta",
+          "fecha": "2027-05-19",
+          "horaSalida": "20:10",
+          "horaLlegada": "05:25 +1",
+          "duracion": "10 h 15 min",
+          "avion": "Airbus A330-900neo",
+          "clase": "Delta Main Classic (X)",
+          "asientos": [
+            "Vladimir 55C",
+            "Ame 55D",
+            "Marko 55G"
+          ],
+          "equipaje": [],
+          "codigoReserva": "No informado",
+          "pdf": "docs/reservas/charlottesville-delta-ida-eze-atl.jpeg"
+        },
+        {
+          "aerolinea": "Delta Air Lines",
+          "numero": "DL 380",
+          "origen": "ATL",
+          "origenNombre": "Aeropuerto Internacional Hartsfield-Jackson de Atlanta",
+          "destino": "DCA",
+          "destinoNombre": "Aeropuerto Nacional Ronald Reagan de Washington",
+          "fecha": "2027-05-20",
+          "horaSalida": "09:10",
+          "horaLlegada": "10:54",
+          "duracion": "1 h 44 min",
+          "avion": "Airbus A320",
+          "clase": "Delta Main Classic (X)",
+          "asientos": [
+            "Vladimir 20D",
+            "Ame 20E",
+            "Marko 20F"
+          ],
+          "equipaje": [],
+          "codigoReserva": "No informado",
+          "pdf": "docs/reservas/charlottesville-delta-ida-atl-dca.jpeg"
+        },
+        {
+          "aerolinea": "Delta Air Lines",
+          "numero": "DL 3101",
+          "origen": "IAD",
+          "origenNombre": "Aeropuerto Internacional Washington Dulles",
+          "destino": "ATL",
+          "destinoNombre": "Aeropuerto Internacional Hartsfield-Jackson de Atlanta",
+          "fecha": "2027-06-11",
+          "horaSalida": "17:30",
+          "horaLlegada": "19:26",
+          "duracion": "1 h 56 min",
+          "avion": "No informado",
+          "clase": "Delta Main Classic (T)",
+          "asientos": [
+            "Ame 20D"
+          ],
+          "equipaje": [],
+          "codigoReserva": "GLYFYN",
+          "pdf": "docs/reservas/charlottesville-delta-regreso-itinerario.jpeg"
+        },
+        {
+          "aerolinea": "Delta Air Lines",
+          "numero": "DL 101",
+          "origen": "ATL",
+          "origenNombre": "Aeropuerto Internacional Hartsfield-Jackson de Atlanta",
+          "destino": "EZE",
+          "destinoNombre": "Aeropuerto Internacional Ministro Pistarini",
+          "fecha": "2027-06-11",
+          "horaSalida": "22:55",
+          "horaLlegada": "09:45 +1",
+          "duracion": "9 h 50 min",
+          "avion": "No informado",
+          "clase": "Delta Main Classic (T)",
+          "asientos": [
+            "Ame 43H"
+          ],
+          "equipaje": [],
+          "codigoReserva": "GLYFYN",
+          "pdf": "docs/reservas/charlottesville-delta-regreso-itinerario.jpeg"
+        }
+      ],
       "hoteles": [
         {
           "nombre": "Omni Charlottesville Hotel",
@@ -544,17 +629,42 @@
           "tipo": "Reserva Hotel",
           "nombre": "Omni Charlottesville Hotel.pdf",
           "ruta": "docs/reservas/charlottesville-omni.pdf"
+        },
+        {
+          "tipo": "Vuelo",
+          "nombre": "Delta - resumen de ida.jpeg",
+          "ruta": "docs/reservas/charlottesville-delta-ida-resumen.jpeg"
+        },
+        {
+          "tipo": "Vuelo",
+          "nombre": "Delta - ida EZE a ATL.jpeg",
+          "ruta": "docs/reservas/charlottesville-delta-ida-eze-atl.jpeg"
+        },
+        {
+          "tipo": "Vuelo",
+          "nombre": "Delta - ida ATL a DCA.jpeg",
+          "ruta": "docs/reservas/charlottesville-delta-ida-atl-dca.jpeg"
+        },
+        {
+          "tipo": "Vuelo",
+          "nombre": "Delta - confirmación de regreso.jpeg",
+          "ruta": "docs/reservas/charlottesville-delta-regreso-confirmacion.jpeg"
+        },
+        {
+          "tipo": "Vuelo",
+          "nombre": "Delta - itinerario de regreso.jpeg",
+          "ruta": "docs/reservas/charlottesville-delta-regreso-itinerario.jpeg"
         }
       ],
       "pasajeros": [
-        "Vladimir Aguzin",
-        "Adulto 2 - no informado",
-        "Adulto 3 - no informado"
+        "Vladimir Maximiliano Aguzin",
+        "María Amelia Sanchez",
+        "Marko Aguzin"
       ],
-      "codigoReserva": "40064677157",
+      "codigoReserva": "GLYFYN",
       "asientos": [],
       "equipaje": [],
-      "pdf": "docs/reservas/charlottesville-omni.pdf"
+      "pdf": "docs/reservas/charlottesville-delta-regreso-confirmacion.jpeg"
     },
     {
       "id": "tailandia-2027",
