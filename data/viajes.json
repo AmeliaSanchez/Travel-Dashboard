@@ -817,6 +817,139 @@
         "2 piezas de equipaje"
       ],
       "pdf": "docs/reservas/tailandia-vladimir-etihad.pdf"
+    },
+    {
+      "id": "miami-boston-2027",
+      "destino": "Miami + Boston",
+      "ciudad": "Miami y Boston",
+      "pais": "Estados Unidos",
+      "bandera": "🇺🇸",
+      "fechaInicio": "2027-07-01",
+      "fechaFin": "2027-07-14",
+      "estado": "Confirmado",
+      "vuelos": [
+        {
+          "aerolinea": "American Airlines",
+          "numero": "AA 908",
+          "origen": "EZE",
+          "origenNombre": "Aeropuerto Internacional Ministro Pistarini",
+          "destino": "MIA",
+          "destinoNombre": "Aeropuerto Internacional de Miami",
+          "fecha": "2027-07-01",
+          "horaSalida": "22:20",
+          "horaLlegada": "06:45 +1",
+          "duracion": "9 h 25 min",
+          "avion": "No informado",
+          "asientos": [
+            "Vladimir 36J",
+            "Maria 36L"
+          ],
+          "equipaje": [
+            "1 pieza de equipaje"
+          ],
+          "codigoReserva": "LMGLPS",
+          "pdf": "docs/reservas/miami-boston-eze-mia.jpeg"
+        },
+        {
+          "aerolinea": "American Airlines",
+          "numero": "AA 1571",
+          "origen": "MIA",
+          "origenNombre": "Aeropuerto Internacional de Miami",
+          "destino": "BOS",
+          "destinoNombre": "Aeropuerto Internacional Logan",
+          "fecha": "2027-07-02",
+          "horaSalida": "09:26",
+          "horaLlegada": "12:57",
+          "duracion": "3 h 31 min",
+          "avion": "No informado",
+          "asientos": [
+            "Vladimir 19D",
+            "Maria 19E"
+          ],
+          "equipaje": [
+            "1 pieza de equipaje"
+          ],
+          "codigoReserva": "LMGLPS",
+          "pdf": "docs/reservas/miami-boston-mia-bos.jpeg"
+        },
+        {
+          "aerolinea": "American Airlines",
+          "numero": "AA 1894",
+          "origen": "BOS",
+          "origenNombre": "Aeropuerto Internacional Logan",
+          "destino": "MIA",
+          "destinoNombre": "Aeropuerto Internacional de Miami",
+          "fecha": "2027-07-06",
+          "horaSalida": "10:57",
+          "horaLlegada": "14:31",
+          "duracion": "3 h 34 min",
+          "avion": "No informado",
+          "asientos": [
+            "Vladimir 22D",
+            "Maria 22E"
+          ],
+          "equipaje": [
+            "1 pieza de equipaje"
+          ],
+          "codigoReserva": "LMGLPS",
+          "pdf": "docs/reservas/miami-boston-bos-mia.jpeg"
+        },
+        {
+          "aerolinea": "American Airlines",
+          "numero": "AA 931",
+          "origen": "MIA",
+          "origenNombre": "Aeropuerto Internacional de Miami",
+          "destino": "EZE",
+          "destinoNombre": "Aeropuerto Internacional Ministro Pistarini",
+          "fecha": "2027-07-13",
+          "horaSalida": "21:15",
+          "horaLlegada": "07:15 +1",
+          "duracion": "9 h",
+          "avion": "No informado",
+          "asientos": [
+            "Vladimir 36J",
+            "Maria 36L"
+          ],
+          "equipaje": [
+            "1 pieza de equipaje"
+          ],
+          "codigoReserva": "LMGLPS",
+          "pdf": "docs/reservas/miami-boston-mia-eze.jpeg"
+        }
+      ],
+      "hoteles": [],
+      "documentos": [
+        {
+          "tipo": "Vuelo",
+          "nombre": "American Airlines - Buenos Aires a Miami.jpeg",
+          "ruta": "docs/reservas/miami-boston-eze-mia.jpeg"
+        },
+        {
+          "tipo": "Vuelo",
+          "nombre": "American Airlines - Miami a Boston.jpeg",
+          "ruta": "docs/reservas/miami-boston-mia-bos.jpeg"
+        },
+        {
+          "tipo": "Vuelo",
+          "nombre": "American Airlines - Boston a Miami.jpeg",
+          "ruta": "docs/reservas/miami-boston-bos-mia.jpeg"
+        },
+        {
+          "tipo": "Vuelo",
+          "nombre": "American Airlines - Miami a Buenos Aires.jpeg",
+          "ruta": "docs/reservas/miami-boston-mia-eze.jpeg"
+        }
+      ],
+      "pasajeros": [
+        "Vladimir Aguzin",
+        "Maria Sanchez"
+      ],
+      "codigoReserva": "LMGLPS",
+      "asientos": [],
+      "equipaje": [
+        "1 pieza de equipaje"
+      ],
+      "pdf": "docs/reservas/miami-boston-eze-mia.jpeg"
     }
   ]
 }
